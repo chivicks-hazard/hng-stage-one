@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(15, 15, 15);
+    color: ghostwhite;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.17rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.83rem;
+}
+
+h6 {
+    font-size: 0.75rem;
+}
+
+p, a, span, li {
+    font-size: 1.125rem;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto 0 auto;
+    padding: 0 5% 0 5%;
+}
+
+#intro .container {
+    text-align: center;
+}
+
+.profile-pic {
+    max-width: 100%;
+}
+
+#intro .container h1 {
+    margin-top: 10%;
+}
+
+#goals {
+    margin: 5% 0 0 0;
+}
+
+#links {
+    margin: 5% 0 0 0;
+}
+
+.goal-list,
+.link-list {
+    margin: 10% 0 0 0;
+    padding-left: 5%;
+}
+
+.goal-list li, 
+.link-list li {
+    padding-left: 1%;
+}
+
+.goal-list h3,
+.link-list h3 {
+    margin-bottom: 1%;
+}
+
+[data-testid="currentDay"],
+[data-testid="currentTimeUTC"] {
+    font-size: inherit;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 481px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 769px;
+    }
+
+    .goal-list,
+    .link-list {
+        padding-left: 0;
+    }
+
+    .goal-list li,
+    .link-list li {
+        padding-left: 0%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1025px;
+    }
+
+    .goal-list,
+    .link-list {
+        padding-left: 0;
+    }
+
+    .goal-list li,
+    .link-list li {
+        padding-left: 0%;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    body {
+        font-size: 22px;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .goal-list,
+    .link-list {
+        padding-left: 0;
+    }
+
+    .goal-list li,
+    .link-list li {
+        padding-left: 0%;
+    }
+}
