@@ -1,0 +1,2 @@
+### HNG Task One
+The objective of thistask is to build a single page website, outline my goals in tech for the next two years. For me, the major task was to maintain the natural dimensions of the the image I used.
